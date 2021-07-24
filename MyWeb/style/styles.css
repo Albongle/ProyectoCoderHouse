@@ -1,0 +1,403 @@
+html {
+  background-color: whitesmoke;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header {
+  background-image: url("../images/portada.jpg");
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 600px;
+}
+header h1 {
+  padding-left: 10px;
+
+  text-transform: capitalize;
+  color: rgb(44, 21, 21, 90%);
+  text-align: start;
+  font-size: 80px;
+}
+h2 {
+  color: rgb(44, 21, 21, 90%);
+  font-size: 50px;
+}
+header > div  img {
+  height: 100px;
+  width: 200px;
+}
+.barra {
+  margin: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header nav ul {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: right;
+}
+header nav ul li a {
+  color: white;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 20px;
+}
+section > h2 {
+  text-align: center;
+}
+.masSobreNosotros {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.masSobreNosotros > div > img {
+  width: 100px;
+  height: 100px;
+}
+.masSobreNosotros > div {
+  border-radius: 20%;
+  width: 400px;
+  margin: 5px;
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.masSobreNosotros > div > p {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+article > img {
+  padding-top: 10px;
+  height: 200px;
+  width: 300px;
+}
+.articulos {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.verAnuncio {
+  display: flex;
+  background-color: olivedrab;
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.articulos > article {
+  background-color: mintcream;
+  margin: 5px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.descripcion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  text-align: center;
+}
+article > ul img {
+  height: 32px;
+  width: 32px;
+}
+
+article > ul {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+article > ul > li {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  list-style-type: none;
+}
+article > ul > li > span {
+  text-align: center;
+}
+
+.verTodos {
+  background-color: orange;
+  text-decoration: none;
+  padding: 20px;
+  color: gainsboro;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contactanos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  background-image: url("../images/contactanos.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 500px;
+  align-items: flex-start;
+  
+}
+
+.contactanos p {
+  font-weight: bold;
+  width: 800px;
+  color:white;
+  margin-left: 5px;
+  font-size: 30px;
+}
+.contactanos input {
+  border-radius: 10px;
+  border:none;
+  text-transform: uppercase;
+  color: whitesmoke;
+  text-decoration: none;
+  margin-left: 5px;
+  padding: 30px;
+  margin-top: 5%;
+  background-color: orange;
+  text-align: center;
+}
+
+footer{
+  background-color: cadetblue ;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+  text-transform: capitalize;
+  color: white;
+  
+}
+footer nav ul {
+
+  padding: 5px;
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+footer p {
+
+  padding: 5px;
+
+}
+footer nav ul li a {
+  color: white;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px;
+  
+}
+.frmContacto{ 
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.frmContacto form{ 
+  width: 700px;
+}
+.frmCampos{
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+.frmCampos input, .frmCampos textarea , .frmCampos select{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.btns{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+
+#btnEnviar{
+  color: aliceblue;
+  background-color: darkseagreen;
+}
+#btnCancelar{
+  color: aliceblue;
+  background-color:orangered;
+}
+fieldset{
+  border-radius: 10px;
+}
+dialog{
+  background-color:mintcream;
+  border-radius: 20px;
+  position: relative;
+  bottom: 600px;
+}
+
+.blogYComentarios{
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.blog{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width:600px;
+}
+.blog article{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width:600px;
+}
+.comentarios{
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 600px;
+}
+.blogYComentarios>section>article>div{
+  text-align: center;
+  width: 200px;
+}
+blockquote>img{
+  height: 64px;
+
+}
+blockquote{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  border-radius: 40px;
+  width: 400px;
+  height: 400px; 
+  background-color: olivedrab;
+  color: white;
+}
+#anuncios{
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+thead{
+  background-color: cadetblue;
+  color: white;
+  text-transform: capitalize;
+
+}
+
+th{
+  padding: 3px;
+  text-align: center;
+}
+td{
+  border-collapse: collapse;
+  padding: 3px;
+  text-align: center;
+}
+tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+    text-align: center;
+}
+tr:nth-of-type(even){
+  background-color: mintcream;
+}
+
+#anuncios img{
+
+  height: 60px;
+  width: 100px;
+  transition-property: height, whidth;
+  transition-duration: 2s;
+}
+#anuncios img:hover{
+  width: 500px;
+  height: 300px;
+}
+
+.ventas{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.articuloAnuncios {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.articuloAnuncios > article {
+  background-color: mintcream;
+  margin: 5px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.solicitud {
+  display: flex;
+  background-color: olivedrab;
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+@media(max-width:760px) {  
+
+
+
+}
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/icono.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../style/styles.css">
+    <script src="../script/index.js"></script>
+    <title>Contactanos</title>
+</head>
+
+<body>
+    <header>
+        <div class="barra">
+            <a href="../index.html"><img src="../images/logo.svg" alt="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                    <li><a href="./anuncios.html">Anuncios</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./contactanos.html">Contacto</a></li>
+                    <li><a href="./encontranos.html">Encontranos</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1>Venta autos de lujo</h1>
+    </header>
+
+    <section class="frmContacto">
+        <form>
+            <fieldset>
+                <legend>Contactanos</legend>
+                <div class="frmCampos">
+                    <input type="text" placeholder="Nombre" required>
+                    <input type="text" placeholder="Apellido" required>
+                    <input type="email" placeholder="ejemplo@mail.com.ar" required>
+                    <input type="tel" placeholder="+54 9 11-1111-1111">
+                    <select name="motivo">
+                        <optgroup label="Comercial">
+                            <option value="venta" selected>Venta</option>
+                            <option value="mantenimiento">Mantenimiento</option>
+                        </optgroup>
+                        <optgroup label="Otros">
+                            <option value="reclamo">Reclamo</option>
+                            <option value="sugerencia">Sugerencia</option>
+                        </optgroup>
+                    </select>
+
+                    <textarea name="consulta" maxlength="255" cols="60" rows="20"
+                        placeholder="Dejanos tu consulta..."></textarea>
+                    <input id="btnEnviar" type="submit" value="Enviar Consulta">
+
+
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./anuncios.html">Anuncios</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./contactanos.html">Contacto</a></li>
+                <li><a href="./encontranos.html">Encontranos</a></li>
+            </ul>
+        </nav>
+        <p>Todos los derechos reservados <date>2021</date> &copy;</p>
+    </footer>
+
+</body>
+
+</html>
