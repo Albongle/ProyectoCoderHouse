@@ -477,7 +477,25 @@ tr:nth-of-type(even) {
   text-align:justify;
 }
 
+.whatsapp{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  top: 0px;
+  bottom: 0px;
+  left: 500px;
+  position:sticky;
+}
 
+.whatsappIndex{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  top: 0px;
+  bottom: 0px;
+  left: 500px;
+  position:sticky;
+}
 
 
 @media (max-width: 760px) {
