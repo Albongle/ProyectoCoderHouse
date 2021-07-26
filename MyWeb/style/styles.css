@@ -1,6 +1,7 @@
 html {
   background-color: whitesmoke;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 header {
   background-image: url("../images/portada.jpg");
@@ -23,7 +24,7 @@ h2 {
   color: rgb(44, 21, 21, 90%);
   font-size: 50px;
 }
-header > div  img {
+header > div img {
   height: 100px;
   width: 200px;
 }
@@ -166,19 +167,18 @@ article > ul > li > span {
   background-position: center;
   height: 500px;
   align-items: flex-start;
-  
 }
 
 .contactanos p {
   font-weight: bold;
   width: 800px;
-  color:white;
+  color: white;
   margin-left: 5px;
   font-size: 30px;
 }
 .contactanos input {
   border-radius: 10px;
-  border:none;
+  border: none;
   text-transform: uppercase;
   color: whitesmoke;
   text-decoration: none;
@@ -189,8 +189,8 @@ article > ul > li > span {
   text-align: center;
 }
 
-footer{
-  background-color: cadetblue ;
+footer {
+  background-color: cadetblue;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -198,10 +198,8 @@ footer{
   justify-content: space-between;
   text-transform: capitalize;
   color: white;
-  
 }
 footer nav ul {
-
   padding: 5px;
   text-decoration: none;
   list-style-type: none;
@@ -210,9 +208,7 @@ footer nav ul {
   flex-direction: row;
 }
 footer p {
-
   padding: 5px;
-
 }
 footer nav ul li a {
   color: white;
@@ -220,149 +216,144 @@ footer nav ul li a {
   text-decoration: none;
   font-size: 20px;
   padding: 5px;
-  
 }
-.frmContacto{ 
+.frmContacto {
   padding: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
-.frmContacto form{ 
+.frmContacto form {
   width: 700px;
 }
-.frmCampos{
+.frmCampos {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  
 }
-.frmCampos input, .frmCampos textarea , .frmCampos select{
+.frmCampos input,
+.frmCampos textarea,
+.frmCampos select {
   margin: 10px;
   padding: 10px;
   border-radius: 5px;
 }
-.btns{
+.btns {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-
 }
 
-#btnEnviar{
+#btnEnviar {
   color: aliceblue;
   background-color: darkseagreen;
 }
-#btnCancelar{
+#btnCancelar {
   color: aliceblue;
-  background-color:orangered;
+  background-color: orangered;
 }
-fieldset{
+fieldset {
   border-radius: 10px;
 }
-dialog{
-  background-color:mintcream;
+dialog {
+  background-color: mintcream;
   border-radius: 20px;
   position: relative;
   bottom: 600px;
 }
 
-.blogYComentarios{
-
+.blogYComentarios {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
   padding: 10px;
 }
-.blog{
+.blog {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width:600px;
+  width: 600px;
 }
-.blog article{
+.blog article {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  width:600px;
+  width: 600px;
 }
-.comentarios{
+.comentarios {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   width: 600px;
 }
-.blogYComentarios>section>article>div{
+.blogYComentarios > section > article > div {
   text-align: center;
   width: 200px;
 }
-blockquote>img{
+blockquote > img {
   height: 64px;
-
 }
-blockquote{
-  display:flex;
+blockquote {
+  display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   text-align: center;
   justify-content: space-between;
   border-radius: 40px;
   width: 400px;
-  height: 400px; 
+  height: 400px;
   background-color: olivedrab;
   color: white;
 }
-#anuncios{
+#anuncios {
   padding: 50px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
 }
-thead{
+thead {
   background-color: cadetblue;
   color: white;
   text-transform: capitalize;
-
 }
 
-th{
+th {
   padding: 3px;
   text-align: center;
 }
-td{
+td {
   border-collapse: collapse;
   padding: 3px;
   text-align: center;
 }
-tr{
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 3px;
-    text-align: center;
+tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 3px;
+  text-align: center;
 }
-tr:nth-of-type(even){
+tr:nth-of-type(even) {
   background-color: mintcream;
 }
 
-#anuncios img{
-
+#anuncios img {
   height: 60px;
   width: 100px;
   transition-property: height, whidth;
-  transition-duration: 2s;
+  transition-duration: 4s;
 }
-#anuncios img:hover{
+#anuncios img:hover {
   width: 500px;
   height: 300px;
 }
 
-.ventas{
+.ventas {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -393,11 +384,70 @@ tr:nth-of-type(even){
   text-align: center;
   margin-bottom: 10px;
 }
+.ubicaciones {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-top: 50px;
+  align-items: flex-start;
+}
 
+.ubicaciones section {
+  border-bottom: 2px solid grey;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 
-@media(max-width:760px) {  
-
-
+}
+.ubicacion {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.contacto {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.contacto>ul{
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 
 }
 
+.contacto>ul>li {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style-type: none;
+
+}
+.contacto>ul>li>a{
+  border-radius: 50px;
+  text-align: center;
+  padding: 20px 50px 20px 50px;
+  text-decoration: none;
+  color: aliceblue;
+}
+.verMapa{
+  background-color: green;
+ 
+  
+}
+.irSitio{
+  background-color: orange;
+}
+
+
+
+
+@media (max-width: 760px) {
+}
