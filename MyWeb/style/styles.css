@@ -91,7 +91,7 @@ section > h2 {
   text-align: center;
   color: white;
 }
-main {
+.principal {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -509,7 +509,36 @@ tr:nth-of-type(even) {
   left: 500px;
   position: sticky;
 }
-
+.miBlog {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.miBlog > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: center;
+}
+.miBlog > div > article {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  text-align: center;
+  
+}
+.quieroMas {
+  margin-bottom: 30px;
+  background-color: tomato;
+  color: aliceblue;
+  padding: 20px;
+  border-radius: 60px;
+}
 @media (max-width: 760px) {
   h2 {
     font-size: 20px;
@@ -574,8 +603,7 @@ tr:nth-of-type(even) {
     width: 90vw;
   }
 
-  .ventas{
+  .ventas {
     width: 40vw;
-  } 
-
+  }
 }
