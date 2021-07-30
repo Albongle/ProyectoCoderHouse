@@ -46,10 +46,6 @@ function renderizarTable(tabla, contenedor) {
 
 function createTable(items) {
   const tabla = document.createElement("table");
-  tabla.setAttribute(
-    "class",
-    "table table-bordered table-striped table-hover table-sm"
-  );
   tabla.appendChild(createThead(items[0]));
   tabla.appendChild(createTbody(items));
   return tabla;
