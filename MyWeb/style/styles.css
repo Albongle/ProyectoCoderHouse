@@ -69,6 +69,44 @@ header nav ul li a {
   padding: 5px;
   font-size: 2rem;
 }
+
+.link {
+  position: relative;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.link:hover {
+  background-color: white;
+}
+.link:hover a {
+  color: cadetblue;
+}
+.sub-lista-enlaces {
+  padding-left: 0;
+  background-color:white;
+  width: 190%;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 4rem;
+}
+.sub-link {
+  padding: 1rem;
+}
+
+.sub-link:hover {
+  background-color: cadetblue;
+}
+.sub-link:hover a {
+  color: white;
+}
+
+.link:hover .sub-lista-enlaces {
+  display: block;
+  width: 100%;
+}
+
 section > h2 {
   text-align: center;
 }
@@ -430,7 +468,7 @@ tr:nth-of-type(even) {
   align-items: flex-start;
 }
 
-.ubicaciones section {
+.ubicaciones>section {
   border-bottom: 2px solid grey;
   display: flex;
   flex-wrap: wrap;
