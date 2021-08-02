@@ -483,6 +483,11 @@ tr:nth-of-type(even) {
   flex-wrap: wrap;
   flex-direction: column;
 }
+.mapa{
+  width: 60vw;
+  height: 40vh;
+  border: 0;
+}
 .contacto {
   padding: 10px;
   display: flex;
@@ -676,5 +681,8 @@ tr:nth-of-type(even) {
 
   .ventas {
     width: 40vw;
+  }
+  .mapa{
+    width: 90vw;
   }
 }
