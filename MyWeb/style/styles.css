@@ -76,7 +76,7 @@ header nav ul li a {
 .link {
   position: relative;
   padding: 1rem;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 .link:hover {
@@ -117,16 +117,17 @@ section > h2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .masSobreNosotros > div > img {
-  width: 100px;
-  height: 100px;
+  width: 10rem;
+  height: 10rem;
 }
 .masSobreNosotros > div {
+  margin: 1rem;
+  padding: 1rem;
   border-radius: 20%;
-  width: 400px;
-  margin: 5px;
+  width: 40rem;
   background-color: cadetblue;
   display: flex;
   align-items: center;
@@ -147,12 +148,12 @@ section > h2 {
   align-items: center;
 }
 article > img {
-  padding-top: 10px;
-  height: 200px;
-  width: 300px;
+  padding-top: 1rem;
+  height: 20rem;
+  width: 30rem;
 }
 .articulos {
-  padding: 10px;
+  margin: 1rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -163,16 +164,16 @@ article > img {
   display: flex;
   background-color: olivedrab;
   text-decoration: none;
-  padding: 20px;
+  padding: 2rem;
   color: white;
-  border-radius: 10px;
+  border-radius: 1rem;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 .articulos > article {
   background-color: mintcream;
-  margin: 5px;
-  width: 400px;
+  margin: 0.5rem;
+  width: 40rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -182,12 +183,12 @@ article > img {
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  padding: 10px;
+  padding: 1rem;
   text-align: center;
 }
 article > ul img {
-  height: 32px;
-  width: 32px;
+  height: 3.2rem;
+  width: 3.2rem;
 }
 
 article > ul {
@@ -197,7 +198,7 @@ article > ul {
   text-decoration: none;
 }
 article > ul > li {
-  padding: 30px;
+  padding: 3rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -210,9 +211,9 @@ article > ul > li > span {
 .verTodos {
   background-color: orange;
   text-decoration: none;
-  padding: 20px;
+  padding: 2rem;
   color: gainsboro;
-  border-radius: 10px;
+  border-radius: 1rem;
   text-align: center;
 }
 
@@ -220,12 +221,11 @@ article > ul > li > span {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-top: 50px;
+  margin-top: 5rem;
   background-image: url("../images/contactanos.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-
   align-items: flex-start;
 }
 
@@ -247,19 +247,19 @@ article > ul > li > span {
 
 .contactanos p {
   font-weight: bold;
-  width: 800px;
+  width: 80rem;
   color: white;
   margin-left: 5px;
   font-size: 3rem;
 }
 .contactanos input {
-  border-radius: 10px;
+  border-radius: 1rem;
   border: none;
   text-transform: uppercase;
   color: whitesmoke;
   text-decoration: none;
-  margin-left: 5px;
-  padding: 30px;
+  margin-left: 0.5rem;
+  padding: 3rem;
   margin-top: 5%;
   background-color: orange;
   text-align: center;
@@ -276,7 +276,7 @@ footer {
   color: white;
 }
 footer nav ul {
-  padding: 5px;
+  padding: 0.5rem;
   text-decoration: none;
   list-style-type: none;
   display: flex;
@@ -284,24 +284,24 @@ footer nav ul {
   flex-direction: row;
 }
 footer p {
-  padding: 5px;
+  padding: 0.5rem;
 }
 footer nav ul li a {
   color: white;
   text-transform: capitalize;
   text-decoration: none;
   font-size: 2rem;
-  padding: 5px;
+  padding: 0.5rem;
 }
 .frmContacto {
-  padding: 20px;
+  padding: 2rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
 .frmContacto form {
-  width: 30vw;
+  width: 100%;
 }
 .frmCampos {
   align-items: flex-start;
@@ -312,9 +312,9 @@ footer nav ul li a {
 .frmCampos input,
 .frmCampos textarea,
 .frmCampos select {
-  margin: 10px;
-  padding: 10px;
-  border-radius: 5px;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
 .btns {
   display: flex;
@@ -331,14 +331,14 @@ footer nav ul li a {
   background-color: orangered;
 }
 fieldset {
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 dialog {
   border: none;
   background-color: mintcream;
-  border-radius: 20px;
+  border-radius: 2rem;
   position: relative;
-  bottom: 600px;
+  bottom: 60rem;
 }
 
 .blogYComentarios {
@@ -346,34 +346,34 @@ dialog {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  padding: 10px;
+  padding: 1rem;
 }
 .blog {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 600px;
+  width: 60rem;
 }
 .blog article {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  width: 600px;
+  width: 60rem;
 }
 .comentarios {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 600px;
+  width: 60rem;
 }
 .blogYComentarios > section > article > div {
   text-align: center;
-  width: 200px;
+  width: 20rem;
 }
 blockquote > img {
-  height: 64px;
+  height: 6.4rem;
 }
 blockquote {
   display: flex;
@@ -381,14 +381,14 @@ blockquote {
   flex-direction: column;
   text-align: center;
   justify-content: space-between;
-  border-radius: 40px;
-  width: 400px;
-  height: 400px;
+  border-radius: 4rem;
+  width: 40rem;
+  height: 40rem;
   background-color: olivedrab;
   color: white;
 }
 #anuncios {
-  padding: 50px;
+  padding: 5rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -402,19 +402,19 @@ thead {
 
 th {
   font-size: 1.6rem;
-  padding: 3px;
+  padding: 0.3rem;
   text-align: center;
 }
 td {
   border-collapse: collapse;
-  padding: 3px;
+  padding: 0.3rem;
   text-align: center;
 }
 tr {
   font-size: 1.3rem;
-  border: 1px solid black;
+  border: 0.1rem solid black;
   border-collapse: collapse;
-  padding: 3px;
+  padding: 0.3rem;
   text-align: center;
 }
 tr:nth-of-type(even) {
@@ -422,14 +422,14 @@ tr:nth-of-type(even) {
 }
 
 #anuncios img {
-  height: 60px;
-  width: 100px;
+  height: 6rem;
+  width: 10rem;
   transition-property: height, whidth;
   transition-duration: 4s;
 }
 #anuncios img:hover {
-  width: 500px;
-  height: 300px;
+  width: 50rem;
+  height: 30rem;
 }
 
 .ventas {
@@ -439,7 +439,7 @@ tr:nth-of-type(even) {
   justify-content: space-around;
 }
 .articuloAnuncios {
-  padding: 50px;
+  padding: 5rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -447,8 +447,8 @@ tr:nth-of-type(even) {
 }
 .articuloAnuncios > article {
   background-color: mintcream;
-  margin: 5px;
-  width: 400px;
+  margin: 0.5rem;
+  width: 40rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -457,11 +457,11 @@ tr:nth-of-type(even) {
   display: flex;
   background-color: olivedrab;
   text-decoration: none;
-  padding: 20px;
+  padding: 2rem;
   color: white;
-  border-radius: 10px;
+  border-radius: 1rem;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 .ubicaciones {
   display: flex;
@@ -472,13 +472,13 @@ tr:nth-of-type(even) {
 }
 
 .ubicaciones>section {
-  border-bottom: 2px solid grey;
+  border-bottom: 0.2rem solid grey;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
 }
 .ubicacion {
-  padding: 10px;
+  padding: 1rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -489,7 +489,7 @@ tr:nth-of-type(even) {
   border: 0;
 }
 .contacto {
-  padding: 10px;
+  padding: 1rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -497,14 +497,14 @@ tr:nth-of-type(even) {
   align-items: flex-start;
 }
 .contacto > ul {
-  padding: 10px;
+  padding: 1rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
 
 .contacto > ul > li {
-  padding: 10px;
+  padding: 1rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -512,9 +512,9 @@ tr:nth-of-type(even) {
   list-style-type: none;
 }
 .contacto > ul > li > a {
-  border-radius: 50px;
+  border-radius: 5rem;
   text-align: center;
-  padding: 20px 50px 20px 50px;
+  padding: 2rem 5rem;
   text-decoration: none;
   color: aliceblue;
 }
@@ -532,9 +532,9 @@ tr:nth-of-type(even) {
 }
 
 .nosotros > section {
-  border-bottom: 2px solid lightblue;
-  margin-bottom: 20px;
-  padding-top: 20px;
+  border-bottom: 0.2rem solid lightblue;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -542,13 +542,13 @@ tr:nth-of-type(even) {
 }
 
 .nosotrosTitulo > img {
-  height: 400px;
-  width: 600px;
+  height: 40rem;
+  width: 60rem;
 }
 .nosotrosDesc {
-  padding-top: 40px;
-  padding-left: 10px;
-  width: 600px;
+  padding-top: 4rem;
+  padding-left: 1rem;
+  width: 60rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -562,7 +562,7 @@ tr:nth-of-type(even) {
   justify-content: flex-end;
   top: 0px;
   bottom: 0px;
-  left: 500px;
+  left: 50rem;
   position: sticky;
 }
 .miBlog {
@@ -575,7 +575,7 @@ tr:nth-of-type(even) {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 10px;
+  margin: 1rem;
   justify-content: center;
 }
 .miBlog > div > article {
@@ -584,16 +584,16 @@ tr:nth-of-type(even) {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 10px;
+  margin: 1rem;
   text-align: center;
   
 }
 .quieroMas {
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
   background-color: tomato;
   color: aliceblue;
-  padding: 20px;
-  border-radius: 60px;
+  padding: 2rem;
+  border-radius: 6rem;
 }
 @media (max-width: 760px) {
   h2 {
@@ -630,7 +630,7 @@ tr:nth-of-type(even) {
 
 
   .barra {
-    margin: 10px;
+    margin: 1rem;
     display: flex;
     flex-direction: column;
   }
@@ -643,12 +643,12 @@ tr:nth-of-type(even) {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-start;
-    width: 600px;
+    width: 60rem;
   }
   .contactanos input {
     margin-top: 0;
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
   }
   .blogYComentarios h2 {
     text-align: start;
