@@ -177,7 +177,14 @@ article > img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: transform .4s ease-in .2s;
 }
+.articulos > article:hover {
+  transform: scale(1.1,1.2);
+
+}
+
+
 .descripcion {
   display: flex;
   flex-direction: column;
@@ -253,6 +260,12 @@ article > ul > li > span {
   font-size: 3rem;
 }
 .contactanos input {
+  
+  animation-name: animacionContacto;
+  animation-duration: 2s;
+  animation-timing-function:ease-in;
+  animation-delay:2s;
+  animation-iteration-count: infinite;
   border-radius: 1rem;
   border: none;
   text-transform: uppercase;
@@ -260,7 +273,7 @@ article > ul > li > span {
   text-decoration: none;
   margin-left: 0.5rem;
   padding: 3rem;
-  margin-top: 5%;
+  margin: 1rem;
   background-color: orange;
   text-align: center;
 }
@@ -301,7 +314,7 @@ footer nav ul li a {
   justify-content: center;
 }
 .frmContacto form {
-  width: 100%;
+  width: 50%;
 }
 .frmCampos {
   align-items: flex-start;
@@ -424,12 +437,10 @@ tr:nth-of-type(even) {
 #anuncios img {
   height: 6rem;
   width: 10rem;
-  transition-property: height, whidth;
-  transition-duration: 4s;
+  transition: transform .5s ease-in-out .2s;
 }
 #anuncios img:hover {
-  width: 50rem;
-  height: 30rem;
+  transform: scale(4,4);
 }
 
 .ventas {
@@ -548,6 +559,8 @@ tr:nth-of-type(even) {
 }
 
 .whatsapp {
+
+  
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -588,6 +601,20 @@ tr:nth-of-type(even) {
   padding: 2rem;
   border-radius: 6rem;
 }
+@keyframes animacionContacto{
+
+  0%{
+  transform: scale(1);
+  }
+  50%{
+  transform: scale(1.1);
+  }
+  100%{
+  transform: scale(1);
+  }
+}
+
+
 @media (max-width: 760px) {
   h2 {
     font-size:2rem;
