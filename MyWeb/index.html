@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
-
+<!--Diseño aplicado con SASS-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/icono.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./style/styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="./script/frmModal.js"></script>
     <title>Auto Express</title>
@@ -14,22 +14,25 @@
 </head>
 
 <body>
-    <header>
-        <div class="barra">
+    <header class="header">
+        <div class="header__barra">
             <a href="./index.html"><img src="./images/logo.svg" alt="logo"></a>
-            <nav>
-                <img class="nav-bar" src="./images/navbarr.svg" alt="">
-                <ul class="lista-enlaces">
-                    <li class="link"><a href="./pages/nosotros.html">Nosotros</a></li>
-                    <li class="link"><a href="./pages/anuncios.html">Anuncios</a></li>
-                    <li class="link"><a href="./pages/blog.html">Blog</a></li>
-                    <li class="link"><a href="./pages/contactanos.html">Contacto</a></li>
-                    <li class="link">
-                        <a href="./pages/encontranos.html">Encontranos</a>
-                        <ul class="sub-lista-enlaces">
-                            <li class="sub-link"><a href="./pages/encontranos.html#barracas">Barracas</a></li>
-                            <li class="sub-link"><a href="./pages/encontranos.html#monserrat">Monserrat</a></li>
-                            <li class="sub-link"><a href="./pages/encontranos.html#madero">Madero</a></li>
+            <nav class="barra__nav">
+                <ul class="nav__lista-enlaces">
+                    <img class="lista-enlaces__imagen" src="./images/navbarr.svg" alt="">
+                    <li class="lista-enlaces__link"><a href="./pages/nosotros.html">Nosotros</a></li>
+                    <li class="lista-enlaces__link""><a href=" ./pages/anuncios.html">Anuncios</a></li>
+                    <li class="lista-enlaces__link"><a href="./pages/blog.html">Blog</a></li>
+                    <li class="lista-enlaces__link""><a href=" ./pages/contactanos.html">Contacto</a></li>
+                    <li class="lista-enlaces__link"">
+                        <a href=" ./pages/encontranos.html">Encontranos</a>
+                        <ul class="link__sub-lista-enlaces">
+                            <li class="sub-lista-enlaces__sub-link"><a
+                                    href="./pages/encontranos.html#barracas">Barracas</a></li>
+                            <li class="sub-lista-enlaces__sub-link"><a
+                                    href="./pages/encontranos.html#monserrat">Monserrat</a></li>
+                            <li class="sub-lista-enlaces__sub-link"><a href="./pages/encontranos.html#madero">Madero</a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
@@ -37,9 +40,9 @@
         </div>
         <h1 class="animate__animated animate__wobble">Venta autos de lujo</h1>
     </header>
-    <section>
+    <section class="section-nosotros">
         <h2>Más sobre nosotros</h2>
-        <div class="masSobreNosotros">
+        <div class="section-nosotros__mas-nosotros">
             <div><img src="./images/calidad.svg" alt="foto Calidad">
                 <h3>Calidad</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est sint, accusamus totam mollitia
@@ -74,13 +77,14 @@
         <a href="https://api.whatsapp.com/send?phone=+5491134925771&text=Quiero&nbsp;adquirir&nbsp;un&nbsp;vehiculo"
             target="_blank"><img src="./images/Whatsapp.ico" alt="whatsapp"></a>
     </section>
-    <main class="principal">
+    <main class="main-articulos">
         <h2>Vehiculos en venta</h2>
-        <div class="articulos">
-            <article>
-                <img class="fotoVenta" src="./images/ferrari.jpg" alt="Anuncio 1">
+        <div class="main-articulos__articulos">
+            <article class="articulos__articulo">
+                <img class="articulo__foto-venta" src="./images/ferrari.jpg" alt="Anuncio 1">
                 <h3>Auto de Lujo Uno</h3>
-                <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam quia ipsam
+                <p class="articulo__descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam quia
+                    ipsam
                     expedita cupiditate
                     temporibus deserunt nulla sapiente harum! Veritatis delectus aliquam unde possimus molestiae modi
                     doloremque tempora distinctio accusantium fuga.</p>
@@ -96,13 +100,14 @@
                         <span>Nafta</span>
                     </li>
                 </ul>
-                <a class="verAnuncio" href="#">Ver Anuncio</a>
+                <a class="articulo__ver-anuncio" href="#">Ver Anuncio</a>
             </article>
 
-            <article>
-                <img class="fotoVenta" src="./images/laborghini.jpeg" alt="Anuncio 2">
+            <article class="articulos__articulo">
+                <img class="articulo__foto-venta" src="./images/laborghini.jpeg" alt="Anuncio 2">
                 <h3>Auto de Lujo Dos</h3>
-                <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam quia ipsam
+                <p class="articulo__descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam quia
+                    ipsam
                     expedita cupiditate
                     temporibus deserunt nulla sapiente harum! Veritatis delectus aliquam unde possimus molestiae modi
                     doloremque tempora distinctio accusantium fuga.</p>
@@ -118,12 +123,13 @@
                         <span>Nafta</span>
                     </li>
                 </ul>
-                <a class="verAnuncio" href="#">Ver Anuncio</a>
+                <a class="articulo__ver-anuncio" href="#">Ver Anuncio</a>
             </article>
-            <article>
-                <img class="fotoVenta" src="./images/fordmustang.jpg" alt="Anuncio 3">
+            <article class="articulos__articulo">
+                <img class="articulo__foto-venta" src="./images/fordmustang.jpg" alt="Anuncio 3">
                 <h3>Auto de Lujo Tres</h3>
-                <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam quia ipsam
+                <p class="articulo__descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam quia
+                    ipsam
                     expedita cupiditate
                     temporibus deserunt nulla sapiente harum! Veritatis delectus aliquam unde possimus molestiae modi
                     doloremque tempora distinctio accusantium fuga.</p>
@@ -139,44 +145,48 @@
                         <span>Nafta</span>
                     </li>
                 </ul>
-                <a class="verAnuncio" href="#">Ver Anuncio</a>
+                <a class="articulo__ver-anuncio" href="#">Ver Anuncio</a>
             </article>
         </div>
 
 
-        <a class="verTodos" href="./pages/anuncios.html">Ver Todos</a>
+        <a class="main-articulos__ver-todos" href="./pages/anuncios.html">Ver Todos</a>
     </main>
-    <div class="contactanos">
-        <section>
+
+    <section class="contactanos">
+        <div>
             <h2>Encuentra el auto para toda la vida</h2>
             <p>Llena el formulario de contacto y un asesor se pondra en contacto a la brevedad</p>
-        </section>
-        <input id="btnContacto" type="button" value="Contactanos">
-    </div>
-    <section class="frmContacto">
-        <dialog class="animate__animated animate__bounceInLeft" id="dialogo">
-            <form>
-                <fieldset>
-                    <legend>Contactanos</legend>
+        </div>
+        <a class="contactanos__btn-contactanos" id="btnContacto">Contactanos</a>
+    </section>
 
-                    <div class="frmCampos">
-                        <input type="text" placeholder="Nombre" required>
-                        <input type="text" placeholder="Apellido" required>
-                        <input type="email" placeholder="ejemplo@mail.com.ar" required>
-                        <input type="tel" placeholder="+54 9 11-1111-1111">
-                        <textarea name="consulta" maxlength="255" cols="60" rows="20"
+
+
+    <section class="contacto">
+        <dialog class="contacto__dialog animate__animated animate__bounceInLeft" id="dialogo">
+            <form class="dialog__frm-contacto">
+                <fieldset class="frm-contacto__fieldset">
+                    <legend class="fieldset__legend">Contactanos</legend>
+
+                    <div class="fieldset__frm-campos">
+                        <input class="frm-campos__ingresos" type="text" placeholder="Nombre" required>
+                        <input class="frm-campos__ingresos" type="text" placeholder="Apellido" required>
+                        <input class="frm-campos__ingresos" type="email" placeholder="ejemplo@mail.com.ar" required>
+                        <input class="frm-campos__ingresos" type="tel" placeholder="+54 9 11-1111-1111">
+                        <textarea class="frm-campos__texto" name="consulta" maxlength="255" cols="60" rows="20"
                             placeholder="Dejanos tu consulta..."></textarea>
-                        <div class="btns">
-                            <input id="btnEnviar" type="submit" value="Enviar Consulta">
-                            <input id="btnCancelar" type="button" value="Cancelar">
+                        <div class="frm-campos__btn">
+                            <input class="btn__btn-enviar" id="btnEnviar" type="submit" value="Enviar Consulta">
+                            <input class="btn__btn-cancelar" id="btnCancelar" type="button" value="Cancelar">
                         </div>
                     </div>
                 </fieldset>
             </form>
         </dialog>
     </section>
-    <div class="blogYComentarios">
-        <section class="blog">
+    <div class="blog-comentarios">
+        <section class="blog-comentarios__blog">
             <h2>Nuestro Blog</h2>
             <article>
                 <img src="images/interior.jpg" alt="foto blog interior">
@@ -195,7 +205,7 @@
                 </div>
             </article>
         </section>
-        <section class="comentarios">
+        <section class="blog-comentarios__comentarios">
             <h2>Comentarios</h2>
             <blockquote>
                 <img src="./images/comentario.svg" alt="foto comilla">
@@ -208,8 +218,8 @@
 
         </section>
     </div>
-    <footer>
-        <nav>
+    <footer class="footer">
+        <nav class="footer__nav">
             <ul>
                 <li><a href="#">Nosotros</a></li>
                 <li><a href="#">Anuncio</a></li>

@@ -1,0 +1,40 @@
+.footer {
+  background-color: $color-primario;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  @media (max-width: 768px) {
+    justify-content: center;
+
+  }
+  .footer__nav {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      li {
+        padding: 1rem;
+        border-radius: 1rem;
+        font-size: 2rem;
+        margin: 1rem;
+        @media (max-width: 768px) {
+          font-size: 1.6rem;
+          margin: 0.5rem;
+      
+        }
+        &:hover{
+            background-color: white;
+            a{
+              color: $color-primario;  
+            }
+        }
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,61 @@
+.contactanos{
+
+    padding: 1rem;
+    margin-top: 1rem;
+    background-image: url("../images/contactanos.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: flex-start;
+    
+    div{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        h2{
+            width: 80vw;
+            margin-bottom: 20rem;
+        }
+        p{
+            color: rgba(0, 0, 0, 0.631);
+            font-size: 2rem;
+        }
+    }
+    .contactanos__btn-contactanos{
+        animation-name: animarBoton;
+        animation-duration: 2s;
+        animation-timing-function:ease-in;
+        animation-delay:2s;
+        animation-iteration-count: infinite;
+        margin-top: 1rem;
+        text-align: center;
+        border-radius: 1rem;
+        padding: 3rem;
+        background-color: orange;
+    }
+
+
+
+}
+@keyframes animarBoton{
+
+    0%{
+    transform: scale(1);
+    }
+    50%{
+    transform: scale(1.1);
+    }
+    100%{
+    transform: scale(1);
+    }
+  }
+
+
+
+
+  

@@ -1,0 +1,54 @@
+@font-face {
+  font-family: fuenteAleBongioanni;
+  src: url("../fonts/Ubuntu-Regular.ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: fuenteAleBongioanni;
+
+}
+body {
+  font-size: 1.6rem;
+  background-color: whitesmoke;
+}
+img {
+  width: 10rem;
+}
+
+li {
+  list-style: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+h1 {
+  font-size: 8rem;
+}
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+@media(max-width:760px)
+{
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
+
+}

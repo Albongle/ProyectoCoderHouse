@@ -1,0 +1,102 @@
+.anuncios-articulos {
+  margin: 3rem 0;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  @media(max-width:768px)
+  {
+      flex-direction: column;
+  }
+  .articulos__table {
+    table {
+      thead {
+        background-color: $color-primario;
+        th {
+          padding: 1rem;
+          color: white;
+        }
+      }
+      tbody {
+        tr {
+          padding: 1rem;
+          &:nth-of-type(even) {
+            background-color: $color-secundario;
+          }
+          td {
+            img {
+              height: 6rem;
+              width: 10rem;
+              transition: transform 0.5s ease-in-out 0.2s;
+              &:hover {
+                transform: scale(4, 4);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .anuncios-articulos__articulos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .articulos__articulo {
+      width: 40rem;
+      padding: 1rem;
+      margin: 1rem;
+      border-radius: 1rem;
+      background-color: $color-secundario;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      transition: transform 0.4s ease-in 0.2s;
+      .articulo__foto-venta {
+        width: 100%;
+      }
+      .articulo__descripcion {
+        font-size: 1.3rem;
+        text-align: justify;
+        margin: 1rem;
+      }
+      .articulo__ver-anuncio {
+        background-color: olivedrab;
+        margin: 1rem;
+        padding: 2rem 1rem;
+        border-radius: 1rem;
+      }
+      &:hover {
+        transform: scale(1.1, 1.2);
+      }
+    }
+    h3 {
+      margin: 1rem;
+    }
+    ul {
+      margin: 1rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 1rem;
+        img {
+          width: 3.2rem;
+        }
+      }
+    }
+  }
+  .main-articulos__ver-todos {
+    background-color: orange;
+    margin: 1rem;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+  }
+}

@@ -1,0 +1,103 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("../images/portada.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 70vh;
+  .header__barra {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    a {
+      img {
+        width: 20rem;
+      }
+    }
+
+    .barra__nav {
+      display: flex;
+      align-items: center ;
+      .nav__lista-enlaces {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .lista-enlaces__imagen {
+          display: none;
+        }
+        .lista-enlaces__link {
+          position: relative;
+          padding: 1rem;
+          border-radius: 1rem;
+          font-size: 2rem;
+          .link__sub-lista-enlaces {
+            display: none;
+            position: absolute;
+            width: 100%;
+            background-color: white;
+            left: 0;
+
+            .sub-lista-enlaces__sub-link {
+              padding: 1rem;
+              text-align: left;
+              &:hover {
+                background-color: $color-primario;
+                a {
+                  color: white;
+                }
+              }
+            }
+          }
+          &:hover {
+            .link__sub-lista-enlaces {
+              display: block;
+            }
+          }
+          &:hover {
+            background-color: white;
+            a {
+              color: $color-primario;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    .header__barra {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .barra__nav {
+        flex-direction: column;
+        .nav__lista-enlaces {
+          flex-direction: column;
+          align-items: center;
+          .lista-enlaces__imagen {
+            width: 3.2rem;
+            display: block;
+          }
+          &:hover {
+            .lista-enlaces__link {
+              display: block;
+            }
+          }
+          .lista-enlaces__link {
+            margin: 0;
+            display: none;
+
+          }
+        }
+      }
+    }
+  }
+}

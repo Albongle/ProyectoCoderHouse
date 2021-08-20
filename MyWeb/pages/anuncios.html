@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
-
+<!--Diseño aplicado con SASS-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../images/icono.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../style/styles.css">
+    <link rel="stylesheet" href="../styles/styles.css">
     <script src="../script/generarTabla.js" type="module"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Anuncios</title>
 </head>
 
 <body>
-    <header>
-        <div class="barra">
+    <header class="header">
+        <div class="header__barra">
             <a href="../index.html"><img src="../images/logo.svg" alt="logo"></a>
-            <nav>
-                <img class="nav-bar" src="../images/navbarr.svg" alt="">
-                <ul class="lista-enlaces">
-                    <li class="link"><a href="./nosotros.html">Nosotros</a></li>
-                    <li class="link"><a href="./anuncios.html">Anuncios</a></li>
-                    <li class="link"><a href="./blog.html">Blog</a></li>
-                    <li class="link"><a href="./contactanos.html">Contacto</a></li>
-                    <li class="link">
-                        <a href="./encontranos.html">Encontranos</a>
-                        <ul class="sub-lista-enlaces">
-                            <li class="sub-link"><a href="./encontranos.html#barracas">Barracas</a></li>
-                            <li class="sub-link"><a href="./encontranos.html#monserrat">Monserrat</a></li>
-                            <li class="sub-link"><a href="./encontranos.html#madero">Madero</a></li>
+            <nav class="barra__nav">
+                
+                <ul class="nav__lista-enlaces">
+                    <img class="lista-enlaces__imagen" src="../images/navbarr.svg" alt="">
+                    <li class="lista-enlaces__link"><a href="../pages/nosotros.html">Nosotros</a></li>
+                    <li class="lista-enlaces__link""><a href="../pages/anuncios.html">Anuncios</a></li>
+                    <li class="lista-enlaces__link"><a href="../pages/blog.html">Blog</a></li>
+                    <li class="lista-enlaces__link""><a href="../pages/contactanos.html">Contacto</a></li>
+                    <li class="lista-enlaces__link"">
+                        <a href="../pages/encontranos.html">Encontranos</a>
+                        <ul class="link__sub-lista-enlaces">
+                            <li class="sub-lista-enlaces__sub-link"><a href="../pages/encontranos.html#barracas">Barracas</a></li>
+                            <li class="sub-lista-enlaces__sub-link"><a href="../pages/encontranos.html#monserrat">Monserrat</a></li>
+                            <li class="sub-lista-enlaces__sub-link"><a href="../pages/encontranos.html#madero">Madero</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -37,18 +38,18 @@
         <h1 class="animate__animated animate__wobble">Venta autos de lujo</h1>
     </header>
 
-    <section class="ventas">
-        <div id="anuncios"></div>
+    <main class="anuncios-articulos">
+        <section class="articulos__table" id="anuncios"></section>
 
-        <div class="articuloAnuncios">
-            <article>
-                <img class="fotoVenta" src="../images/ferrari.jpg" alt="Anuncio 1">
-                <h3 class="marca">Auto de Lujo Uno</h3>
-                <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam quia ipsam
+        <section class="anuncios-articulos__articulos">
+            <article class="articulos__articulo">
+                <img class="articulo__foto-venta" src="../images/ferrari.jpg" alt="Anuncio 1">
+                <h3 class="articulo__marca">Auto de Lujo Uno</h3>
+                <p class="articulo__descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam quia ipsam
                     expedita cupiditate
                     temporibus deserunt nulla sapiente harum! Veritatis delectus aliquam unde possimus molestiae modi
                     doloremque tempora distinctio accusantium fuga.</p>
-                <p class="precio">$500M</p>
+                <p class="articulo__precio">$500M</p>
                 <ul>
                     <li> <img src="../images/door.png" alt="foto icono puertas">
                         <span class="puertas">4</span>
@@ -60,21 +61,21 @@
                         <span class="combustible">Nafta</span>
                     </li>
                 </ul>
-                <a class="verAnuncio" href="#">Cargar Solicitud</a>
+                <a class="articulo__ver-anuncio" href="#">Cargar Solicitud</a>
             </article>
-        </div>
-    </section>
+        </section>
+    </main>
 
 
 
-    <footer>
-        <nav>
+    <footer class="footer">
+        <nav class="footer__nav">
             <ul>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./anuncios.html">Anuncios</a></li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li><a href="./contactanos.html">Contacto</a></li>
-                <li><a href="./encontranos.html">Encontranos</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Anuncio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Encontranos</a></li>
             </ul>
         </nav>
         <p>Todos los derechos reservados <date>2021</date> &copy;</p>

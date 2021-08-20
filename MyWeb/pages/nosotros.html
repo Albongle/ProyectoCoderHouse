@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-
+<!--Diseño aplicado con Bootstrap-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,28 +9,29 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style/styles.css">
+    <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Nosotros</title>
 </head>
 
 <body>
-    <header>
-        <div class="barra">
+    <header class="header">
+        <div class="header__barra">
             <a href="../index.html"><img src="../images/logo.svg" alt="logo"></a>
-            <nav>
-                <img class="nav-bar" src="../images/navbarr.svg" alt="">
-                <ul class="lista-enlaces">
-                    <li class="link"><a href="./nosotros.html">Nosotros</a></li>
-                    <li class="link"><a href="./anuncios.html">Anuncios</a></li>
-                    <li class="link"><a href="./blog.html">Blog</a></li>
-                    <li class="link"><a href="./contactanos.html">Contacto</a></li>
-                    <li class="link">
-                        <a href="./encontranos.html">Encontranos</a>
-                        <ul class="sub-lista-enlaces">
-                            <li class="sub-link"><a href="./encontranos.html#barracas">Barracas</a></li>
-                            <li class="sub-link"><a href="./encontranos.html#monserrat">Monserrat</a></li>
-                            <li class="sub-link"><a href="./encontranos.html#madero">Madero</a></li>
+            <nav class="barra__nav">
+                
+                <ul class="nav__lista-enlaces">
+                    <img class="lista-enlaces__imagen" src="../images/navbarr.svg" alt="">
+                    <li class="lista-enlaces__link"><a href="../pages/nosotros.html">Nosotros</a></li>
+                    <li class="lista-enlaces__link""><a href="../pages/anuncios.html">Anuncios</a></li>
+                    <li class="lista-enlaces__link"><a href="../pages/blog.html">Blog</a></li>
+                    <li class="lista-enlaces__link""><a href="../pages/contactanos.html">Contacto</a></li>
+                    <li class="lista-enlaces__link"">
+                        <a href="../pages/encontranos.html">Encontranos</a>
+                        <ul class="link__sub-lista-enlaces">
+                            <li class="sub-lista-enlaces__sub-link"><a href="../pages/encontranos.html#barracas">Barracas</a></li>
+                            <li class="sub-lista-enlaces__sub-link"><a href="../pages/encontranos.html#monserrat">Monserrat</a></li>
+                            <li class="sub-lista-enlaces__sub-link"><a href="../pages/encontranos.html#madero">Madero</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -42,7 +43,7 @@
         <section class="pb-5">
             <h2 class="text-start">Calidad</h2>
             <div class="row nosotros-titulo justify-content-start">
-                <img class="order-lg-last" src="../images/vendedor.jpg" alt="foto vendedor">
+                <img class="img-fluid col-xxl-3 col-xl-4 col-lg-6 col-md-5 col-sm-8 order-lg-last" src="../images/vendedor.jpg" alt="foto vendedor">
 
                 <div class="col-lg-6 col-md-12 pt-md-5 ">
                     <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, magnam nobis, aut, dolorem
@@ -79,7 +80,7 @@
 
             <h2 class="text-start">Seguridad</h2>
             <div class="row nosotros-titulo justify-content-start">
-                <img src="../images/vendedor 2.jpg" alt="foto vendedor">
+                <img class="img-fluid col-xxl-3 col-xl-4 col-lg-6 col-md-5 col-sm-8" src="../images/vendedor 2.jpg" alt="foto vendedor">
 
                 <div class="col-lg-6 col-md-12 pt-md-5">
                     <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, magnam nobis, aut, dolorem
@@ -110,7 +111,7 @@
 
             <h2 class="text-start">Precio</h2>
             <div class="row nosotros-titulo justify-content-start">
-                <img class="order-lg-last" src="../images/vendedor 3.jpg" alt="foto vendedor">
+                <img class="img-fluid col-xxl-3 col-xl-4 col-lg-6 col-md-5 col-sm-8 order-lg-last" src="../images/vendedor 3.jpg" alt="foto vendedor">
 
                 <div class="col-lg-6 col-md-12 pt-md-5">
                     <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, magnam nobis, aut, dolorem
@@ -148,14 +149,14 @@
     </main>
 
 
-    <footer>
-        <nav>
+    <footer class="footer">
+        <nav class="footer__nav">
             <ul>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./anuncios.html">Anuncios</a></li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li><a href="./contactanos.html">Contacto</a></li>
-                <li><a href="./encontranos.html">Encontranos</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Anuncio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Encontranos</a></li>
             </ul>
         </nav>
         <p>Todos los derechos reservados <date>2021</date> &copy;</p>
