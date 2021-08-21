@@ -15,9 +15,6 @@ body {
   font-size: 1.6rem;
   background-color: whitesmoke; }
 
-img {
-  width: 10rem; }
-
 li {
   list-style: none; }
 
@@ -343,7 +340,8 @@ h3 {
         .blog-comentarios .blog-comentarios__blog article {
           flex-direction: column; } }
       .blog-comentarios .blog-comentarios__blog article img {
-        width: 50%; }
+        width: 50%;
+        border-radius: 1rem; }
       .blog-comentarios .blog-comentarios__blog article div {
         width: 40%;
         display: flex;
@@ -543,8 +541,7 @@ h3 {
           width: 100vw;
           margin: 0; } }
       .blog .blog__articulos .articulos__articulo .articulo__imagen {
-        width: 40rem;
-        height: 25rem; }
+        width: 40vh; }
       .blog .blog__articulos .articulos__articulo .articulo__detalle {
         margin: 1rem;
         display: flex;
@@ -561,3 +558,47 @@ h3 {
         border-radius: 1rem;
         background-color: mintcream;
         color: cadetblue; }
+
+.ubicaciones {
+  padding: 1rem; }
+  .ubicaciones .ubicaciones__section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 1rem;
+    padding: 1rem;
+    border-bottom: 0.2rem cadetblue solid; }
+    .ubicaciones .ubicaciones__section .section__ubicacion {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap; }
+      .ubicaciones .ubicaciones__section .section__ubicacion .ubicacion__mapa {
+        width: 60rem;
+        height: 20rem;
+        border: 0;
+        border-radius: 1rem; }
+        @media (max-width: 768px) {
+          .ubicaciones .ubicaciones__section .section__ubicacion .ubicacion__mapa {
+            width: 90vw; } }
+      .ubicaciones .ubicaciones__section .section__ubicacion p {
+        margin: 1rem; }
+    .ubicaciones .ubicaciones__section .section__contacto {
+      margin: 1rem;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center; }
+      .ubicaciones .ubicaciones__section .section__contacto p {
+        margin-top: 1rem; }
+      .ubicaciones .ubicaciones__section .section__contacto ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap; }
+        .ubicaciones .ubicaciones__section .section__contacto ul li {
+          background-color: cadetblue;
+          padding: 2rem;
+          margin-top: 1rem;
+          margin-right: 1rem;
+          border-radius: 1rem; }

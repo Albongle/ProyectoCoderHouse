@@ -1,0 +1,54 @@
+.ubicaciones{
+    padding: 1rem;
+    .ubicaciones__section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+        margin: 1rem;
+        padding: 1rem;
+        border-bottom: .2rem $color-primario solid;
+        .section__ubicacion{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            .ubicacion__mapa{
+                width: 60rem;
+                height: 20rem;
+                border: 0;
+                border-radius: 1rem;
+                @media (max-width:768px) {
+                    width: 90vw;
+                }
+            }
+            p{
+                margin: 1rem;
+            }
+            
+        }
+        .section__contacto{
+            margin: 1rem;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            p{
+                margin-top: 1rem;
+            }
+            ul{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                li{
+                    background-color: $color-primario;
+                    padding: 2rem;
+                    margin-top: 1rem;
+                    margin-right: 1rem;
+                    border-radius: 1rem;
+                }
+            }
+        }
+    }
+}
