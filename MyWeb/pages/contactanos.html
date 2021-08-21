@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-
+<!--Diseño aplicado con SASS-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,16 +38,16 @@
         <h1 class="animate__animated animate__wobble">Venta autos de lujo</h1>
     </header>
 
-    <section class="frmContacto">
-        <form>
-            <fieldset>
-                <legend>Contactanos</legend>
-                <div class="frmCampos">
-                    <input type="text" placeholder="Nombre" required>
-                    <input type="text" placeholder="Apellido" required>
-                    <input type="email" placeholder="ejemplo@mail.com.ar" required>
-                    <input type="tel" placeholder="+54 9 11-1111-1111">
-                    <select name="motivo">
+    <section class="contacto">
+        <form class="contacto__frm-contacto">
+            <fieldset class="frm-contacto__fieldset">
+                <legend class="fieldset__legend">Contactanos</legend>
+                <div class="fieldset__frm-campos">
+                    <input class="frm-campos__ingresos" type="text" placeholder="Nombre" required>
+                    <input class="frm-campos__ingresos" type="text" placeholder="Apellido" required>
+                    <input class="frm-campos__ingresos" type="email" placeholder="ejemplo@mail.com.ar" required>
+                    <input class="frm-campos__ingresos" type="tel" placeholder="+54 9 11-1111-1111">
+                    <select class="frm-campos__ingresos" name="motivo">
                         <optgroup label="Comercial">
                             <option value="venta" selected>Venta</option>
                             <option value="mantenimiento">Mantenimiento</option>
@@ -58,9 +58,9 @@
                         </optgroup>
                     </select>
 
-                    <textarea name="consulta" maxlength="255" cols="60" rows="20"
+                    <textarea class="frm-campos__texto" name="consulta" maxlength="255" cols="60" rows="20"
                         placeholder="Dejanos tu consulta..."></textarea>
-                    <input id="btnEnviar" type="submit" value="Enviar Consulta">
+                    <input class="btn__btn-enviar" id="btnEnviar" type="submit" value="Enviar Consulta">
 
 
                 </div>

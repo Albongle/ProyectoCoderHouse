@@ -480,3 +480,41 @@ h3 {
     margin: 1rem;
     padding: 2rem 1rem;
     border-radius: 1rem; }
+
+.contacto {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center; }
+  @media (max-width: 768px) {
+    .contacto {
+      width: 90vw; } }
+  .contacto .contacto__frm-contacto .frm-contacto__fieldset {
+    border-radius: 1rem; }
+    .contacto .contacto__frm-contacto .frm-contacto__fieldset .fieldset__legend {
+      color: cadetblue; }
+    .contacto .contacto__frm-contacto .frm-contacto__fieldset .fieldset__frm-campos {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      flex-wrap: wrap; }
+      .contacto .contacto__frm-contacto .frm-contacto__fieldset .fieldset__frm-campos .frm-campos__ingresos {
+        margin: 1rem;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        width: 50%; }
+      .contacto .contacto__frm-contacto .frm-contacto__fieldset .fieldset__frm-campos .frm-campos__texto {
+        margin: 1rem;
+        border-radius: 0.5rem;
+        width: 80%; }
+      .contacto .contacto__frm-contacto .frm-contacto__fieldset .fieldset__frm-campos .btn__btn-enviar {
+        padding: 1rem;
+        margin: 1rem;
+        width: 30%;
+        border-radius: 1rem;
+        color: aliceblue;
+        background-color: darkseagreen; }
+        @media (max-width: 768px) {
+          .contacto .contacto__frm-contacto .frm-contacto__fieldset .fieldset__frm-campos .btn__btn-enviar {
+            width: 60%; } }
