@@ -518,3 +518,46 @@ h3 {
         @media (max-width: 768px) {
           .contacto .contacto__frm-contacto .frm-contacto__fieldset .fieldset__frm-campos .btn__btn-enviar {
             width: 60%; } }
+
+.blog {
+  text-align: center; }
+  .blog .blog__articulos {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    @media (max-width: 768px) {
+      .blog .blog__articulos {
+        flex-direction: column;
+        align-items: center; } }
+    .blog .blog__articulos .articulos__articulo {
+      width: 40vw;
+      margin: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around; }
+      @media (max-width: 768px) {
+        .blog .blog__articulos .articulos__articulo {
+          width: 100vw;
+          margin: 0; } }
+      .blog .blog__articulos .articulos__articulo .articulo__imagen {
+        width: 40rem;
+        height: 25rem; }
+      .blog .blog__articulos .articulos__articulo .articulo__detalle {
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center; }
+        .blog .blog__articulos .articulos__articulo .articulo__detalle h3 {
+          margin: 0.5rem; }
+        .blog .blog__articulos .articulos__articulo .articulo__detalle p {
+          margin: 0.5rem; }
+      .blog .blog__articulos .articulos__articulo .articulo__btn {
+        margin: 1rem;
+        padding: 2rem;
+        border-radius: 1rem;
+        background-color: mintcream;
+        color: cadetblue; }
