@@ -4,6 +4,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    @media(max-width:768px)
+    {
+        justify-content: center;
+    }
     .blog-comentarios__blog{
         width: 70vh;
         display: flex;
