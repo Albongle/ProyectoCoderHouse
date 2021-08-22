@@ -8,26 +8,25 @@
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: center;
-
-    margin: 1rem 
+    margin: 1rem;
   }
   .anuncios__table {
     @media (max-width: 768px) {
       font-size: 1rem;
-      margin: 1rem 
+      margin: 1rem;
     }
     table {
       thead {
         background-color: $color-primario;
         tr {
           @media (max-width: 768px) {
-            padding: .1rem;
+            padding: 0.1rem;
           }
           th {
             padding: 1rem;
             color: white;
             @media (max-width: 768px) {
-              padding: .1rem;
+              padding: 0.1rem;
             }
           }
         }
@@ -36,7 +35,7 @@
         tr {
           padding: 1rem;
           @media (max-width: 768px) {
-            padding: .1rem;
+            padding: 0.1rem;
           }
           &:nth-of-type(even) {
             background-color: $color-secundario;
@@ -44,7 +43,6 @@
 
           td {
             @media (max-width: 768px) {
-
               width: 10vw;
             }
             img {

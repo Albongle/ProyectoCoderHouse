@@ -427,18 +427,18 @@ h3 {
     background-color: cadetblue; }
     @media (max-width: 768px) {
       .anuncios .anuncios__table table thead tr {
-        padding: .1rem; } }
+        padding: 0.1rem; } }
     .anuncios .anuncios__table table thead tr th {
       padding: 1rem;
       color: white; }
       @media (max-width: 768px) {
         .anuncios .anuncios__table table thead tr th {
-          padding: .1rem; } }
+          padding: 0.1rem; } }
   .anuncios .anuncios__table table tbody tr {
     padding: 1rem; }
     @media (max-width: 768px) {
       .anuncios .anuncios__table table tbody tr {
-        padding: .1rem; } }
+        padding: 0.1rem; } }
     .anuncios .anuncios__table table tbody tr:nth-of-type(even) {
       background-color: mintcream; }
     @media (max-width: 768px) {
