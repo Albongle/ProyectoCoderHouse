@@ -407,7 +407,7 @@ h3 {
         .footer .footer__nav ul li:hover a {
           color: cadetblue; }
 
-.anuncios-articulos {
+.anuncios {
   margin: 3rem 0;
   text-align: center;
   display: flex;
@@ -415,29 +415,51 @@ h3 {
   flex-wrap: wrap;
   justify-content: space-around; }
   @media (max-width: 768px) {
-    .anuncios-articulos {
-      flex-direction: column; } }
-  .anuncios-articulos .articulos__table table thead {
+    .anuncios {
+      flex-direction: column;
+      align-items: center;
+      margin: 1rem; } }
+  @media (max-width: 768px) {
+    .anuncios .anuncios__table {
+      font-size: 1rem;
+      margin: 1rem; } }
+  .anuncios .anuncios__table table thead {
     background-color: cadetblue; }
-    .anuncios-articulos .articulos__table table thead th {
+    @media (max-width: 768px) {
+      .anuncios .anuncios__table table thead tr {
+        padding: .1rem; } }
+    .anuncios .anuncios__table table thead tr th {
       padding: 1rem;
       color: white; }
-  .anuncios-articulos .articulos__table table tbody tr {
+      @media (max-width: 768px) {
+        .anuncios .anuncios__table table thead tr th {
+          padding: .1rem; } }
+  .anuncios .anuncios__table table tbody tr {
     padding: 1rem; }
-    .anuncios-articulos .articulos__table table tbody tr:nth-of-type(even) {
+    @media (max-width: 768px) {
+      .anuncios .anuncios__table table tbody tr {
+        padding: .1rem; } }
+    .anuncios .anuncios__table table tbody tr:nth-of-type(even) {
       background-color: mintcream; }
-    .anuncios-articulos .articulos__table table tbody tr td img {
+    @media (max-width: 768px) {
+      .anuncios .anuncios__table table tbody tr td {
+        width: 10vw; } }
+    .anuncios .anuncios__table table tbody tr td img {
       height: 6rem;
       width: 10rem;
       transition: transform 0.5s ease-in-out 0.2s; }
-      .anuncios-articulos .articulos__table table tbody tr td img:hover {
+      .anuncios .anuncios__table table tbody tr td img:hover {
         transform: scale(4, 4); }
-  .anuncios-articulos .anuncios-articulos__articulos {
+      @media (max-width: 768px) {
+        .anuncios .anuncios__table table tbody tr td img {
+          height: 2rem;
+          width: 5rem; } }
+  .anuncios .anuncios__articulo {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around; }
-    .anuncios-articulos .anuncios-articulos__articulos .articulos__articulo {
+    .anuncios .anuncios__articulo .articulo__article {
       width: 40rem;
       padding: 1rem;
       margin: 1rem;
@@ -448,39 +470,37 @@ h3 {
       flex-wrap: wrap;
       align-items: center;
       transition: transform 0.4s ease-in 0.2s; }
-      .anuncios-articulos .anuncios-articulos__articulos .articulos__articulo .articulo__foto-venta {
+      @media (max-width: 768px) {
+        .anuncios .anuncios__articulo .articulo__article {
+          width: 30rem; } }
+      .anuncios .anuncios__articulo .articulo__article .article__foto-venta {
         width: 100%; }
-      .anuncios-articulos .anuncios-articulos__articulos .articulos__articulo .articulo__descripcion {
+      .anuncios .anuncios__articulo .articulo__article .article__descripcion {
         font-size: 1.3rem;
         text-align: justify;
         margin: 1rem; }
-      .anuncios-articulos .anuncios-articulos__articulos .articulos__articulo .articulo__ver-anuncio {
+      .anuncios .anuncios__articulo .articulo__article .article__ver-anuncio {
         background-color: olivedrab;
         margin: 1rem;
         padding: 2rem 1rem;
         border-radius: 1rem; }
-      .anuncios-articulos .anuncios-articulos__articulos .articulos__articulo:hover {
+      .anuncios .anuncios__articulo .articulo__article:hover {
         transform: scale(1.1, 1.2); }
-    .anuncios-articulos .anuncios-articulos__articulos h3 {
+    .anuncios .anuncios__articulo h3 {
       margin: 1rem; }
-    .anuncios-articulos .anuncios-articulos__articulos ul {
+    .anuncios .anuncios__articulo ul {
       margin: 1rem;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap; }
-      .anuncios-articulos .anuncios-articulos__articulos ul li {
+      .anuncios .anuncios__articulo ul li {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         margin: 1rem; }
-        .anuncios-articulos .anuncios-articulos__articulos ul li img {
+        .anuncios .anuncios__articulo ul li img {
           width: 3.2rem; }
-  .anuncios-articulos .main-articulos__ver-todos {
-    background-color: orange;
-    margin: 1rem;
-    padding: 2rem 1rem;
-    border-radius: 1rem; }
 
 .contacto {
   margin-top: 3rem;
