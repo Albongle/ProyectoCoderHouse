@@ -587,11 +587,14 @@ h3 {
       .ubicaciones .ubicaciones__section .section__ubicacion p {
         margin: 1rem; }
     .ubicaciones .ubicaciones__section .section__contacto {
-      margin: 1rem;
+      margin-left: 30rem;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
       justify-content: center; }
+      @media (max-width: 1200px) {
+        .ubicaciones .ubicaciones__section .section__contacto {
+          margin-left: 1rem; } }
       .ubicaciones .ubicaciones__section .section__contacto p {
         margin-top: 1rem; }
       .ubicaciones .ubicaciones__section .section__contacto ul {

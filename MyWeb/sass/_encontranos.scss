@@ -28,11 +28,14 @@
             
         }
         .section__contacto{
-            margin: 1rem;
+            margin-left: 30rem;
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
             justify-content: center;
+            @media (max-width:1200px) {
+                margin-left: 1rem;
+            }
             p{
                 margin-top: 1rem;
             }
