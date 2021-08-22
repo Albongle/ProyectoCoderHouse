@@ -16,9 +16,9 @@ function handlerClick(e) {
 function mostrarAnuncio(id){
   let anuncio =  anuncios.find(element=> element.id === parseInt(id));
   console.log(anuncio);
-  let foto =  document.getElementsByClassName("articulo__foto-venta");
-  let marca =  document.getElementsByClassName("articulo__marca");
-  let precio =  document.getElementsByClassName("articulo__precio");
+  let foto =  document.getElementsByClassName("article__foto-venta");
+  let marca =  document.getElementsByClassName("article__marca");
+  let precio =  document.getElementsByClassName("article__precio");
   let puertas =  document.getElementsByClassName("puertas");
   let potencia =  document.getElementsByClassName("potencia");
   let combustible =  document.getElementsByClassName("combustible");
