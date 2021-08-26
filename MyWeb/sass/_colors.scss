@@ -1,2 +1,15 @@
-$color-primario : cadetblue;
-$color-secundario :mintcream;
+$color-primario: cadetblue;
+$color-secundario: mintcream;
+$colores-map: (
+  principal: $color-primario,
+  secundario: $color-secundario,
+  principal-transparente: rgba(95, 158, 160, 0.5),
+  secundario-transparente: rgba(245, 255, 250, 0.5)
+);
+
+
+
+
+
+
+ 

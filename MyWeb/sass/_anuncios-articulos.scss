@@ -1,3 +1,6 @@
+@import 'funciones';
+
+
 .anuncios {
   margin: 3rem 0;
   text-align: center;
@@ -37,8 +40,9 @@
           @media (max-width: 768px) {
             padding: 0.1rem;
           }
+
           &:nth-of-type(even) {
-            background-color: $color-secundario;
+            background-color:AsignarColor('secundario-transparente');
           }
 
           td {
