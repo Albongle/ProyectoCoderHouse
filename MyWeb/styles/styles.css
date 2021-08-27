@@ -467,7 +467,6 @@ h3 {
       .main-articulos .main-articulos__articulos .articulos__articulo .articulo__foto-venta {
         width: 100%; }
       .main-articulos .main-articulos__articulos .articulos__articulo .articulo__descripcion {
-        font-size: 1.3rem;
         text-align: justify;
         margin: 1rem; }
       .main-articulos .main-articulos__articulos .articulos__articulo .articulo__ver-anuncio {
@@ -786,9 +785,11 @@ h3 {
       .anuncios .anuncios__articulo .articulo__article .article__foto-venta {
         width: 100%; }
       .anuncios .anuncios__articulo .articulo__article .article__descripcion {
-        font-size: 1.3rem;
         text-align: justify;
         margin: 1rem; }
+        @media (max-width: 768px) {
+          .anuncios .anuncios__articulo .articulo__article .article__descripcion {
+            font-size: 1.6rem; } }
       .anuncios .anuncios__articulo .articulo__article .article__ver-anuncio {
         background-color: olivedrab;
         margin: 1rem;

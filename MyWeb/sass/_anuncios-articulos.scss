@@ -90,9 +90,11 @@
         width: 100%;
       }
       .article__descripcion {
-        font-size: 1.3rem;
         text-align: justify;
         margin: 1rem;
+        @media (max-width: 768px) {
+          font-size: 1.6rem;
+        }
       }
       .article__ver-anuncio {
         background-color: olivedrab;
