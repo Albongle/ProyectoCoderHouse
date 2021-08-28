@@ -341,7 +341,6 @@ h3 {
 
 .header {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
   background-image: url("../images/portada.jpg");
@@ -361,6 +360,8 @@ h3 {
       display: flex;
       align-items: center; }
       .header .header__barra .barra__nav .nav__lista-enlaces {
+        margin: 1rem;
+        padding: 0;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -373,6 +374,7 @@ h3 {
           border-radius: 1rem;
           font-size: 2rem; }
           .header .header__barra .barra__nav .nav__lista-enlaces .lista-enlaces__link .link__sub-lista-enlaces {
+            padding: 0;
             display: none;
             position: absolute;
             width: 100%;
@@ -380,7 +382,8 @@ h3 {
             left: 0; }
             .header .header__barra .barra__nav .nav__lista-enlaces .lista-enlaces__link .link__sub-lista-enlaces .sub-lista-enlaces__sub-link {
               padding: 1rem;
-              text-align: left; }
+              text-align: left;
+              border-radius: 1rem; }
               .header .header__barra .barra__nav .nav__lista-enlaces .lista-enlaces__link .link__sub-lista-enlaces .sub-lista-enlaces__sub-link:hover {
                 background-color: cadetblue; }
                 .header .header__barra .barra__nav .nav__lista-enlaces .lista-enlaces__link .link__sub-lista-enlaces .sub-lista-enlaces__sub-link:hover a {
@@ -429,7 +432,6 @@ h3 {
       padding: .5rem;
       display: flex;
       flex-direction: column;
-      flex-wrap: wrap;
       justify-content: center;
       align-items: center;
       width: 40rem; }
