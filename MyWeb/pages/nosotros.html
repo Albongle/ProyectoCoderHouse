@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-<!--Diseño aplicado con Bootstrap-->
+<!--Diseño aplicado con SASS-->
 
 <head>
     <meta charset="UTF-8">
@@ -10,9 +10,7 @@
     <meta name="description" content="Venta Autos de Lujo, nuestra historia">
     <title>Auto Express - Nosotros</title>
     <link rel="shortcut icon" href="../images/icono.ico" type="image/x-icon">
-    <!-- Bootstrap CSS -->
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
@@ -44,15 +42,15 @@
         </div>
         <h1 class="animate__animated animate__wobble">Venta autos de lujo</h1>
     </header>
-    <main class="container-fluid mt-5 pb-5">
-        <section class="pb-5">
-            <h2 class="text-start">Calidad</h2>
-            <div class="row nosotros-titulo justify-content-start">
-                <img class="img-fluid col-xxl-3 col-xl-6 col-lg-6 col-md-5 col-sm-8 order-lg-last"
+    <main class="nosotros">
+        <section class="nosotros__section">
+            <h2 class="section__titulo">Calidad</h2>
+            <div class="section__contenido">
+                <img class="contenido__imagen"
                     src="../images/vendedor.jpg" alt="foto vendedor">
 
-                <div class="col-lg-6 col-md-12 pt-md-5 ">
-                    <p class="tam-fuente-2"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, magnam nobis, aut, dolorem
+                <div class="contenido__descripcion">
+                    <p class="descripcion__principal tam-fuente-2"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, magnam nobis, aut, dolorem
                             optio
                             temporibus nisi aliquid iusto beatae eligendi asperiores perferendis amet blanditiis
                             consequuntur
@@ -71,7 +69,7 @@
                             reprehenderit tempora voluptatibus voluptas ut, ratione enim quo distinctio accusantium
                             molestias
                             dolorem? Voluptatum.</span></p>
-                    <p class="tam-fuente-2 border-bottom  border-1 border-primary m-0">Lorem ipsum dolor sit amet consectetur
+                    <p class="descripcion__secundaria tam-fuente-2">Lorem ipsum dolor sit amet consectetur
                         adipisicing elit. Illo voluptates, sapiente unde molestiae
                         nobis
                         at soluta sequi quo dicta recusandae, reprehenderit vitae libero sint facere consequatur
@@ -82,15 +80,15 @@
             </div>
 
         </section>
-        <section class="pb-5 shadow-lg">
+        <section class="nosotros__section">
 
-            <h2 class="text-start">Seguridad</h2>
-            <div class="row nosotros-titulo justify-content-start">
-                <img class="img-fluid col-xxl-3 col-xl-6 col-lg-6 col-md-5 col-sm-8" src="../images/vendedor 2.jpg"
+            <h2 class="section__titulo">Seguridad</h2>
+            <div class="section__contenido section__contenido--reverse">
+                <img class="contenido__imagen" src="../images/vendedor 2.jpg"
                     alt="foto vendedor">
 
-                <div class="col-lg-6 col-md-12 pt-md-5">
-                    <p class="tam-fuente-2"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, magnam nobis, aut, dolorem
+                <div class="contenido__descripcion ">
+                    <p class="descripcion__principal tam-fuente-2"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, magnam nobis, aut, dolorem
                             optio
                             temporibus nisi aliquid iusto beatae eligendi asperiores perferendis amet blanditiis
                             consequuntur quo. Voluptas, quia dolore. Amet.</span><span>Et corporis obcaecati animi
@@ -105,7 +103,7 @@
                             quia fugiat debitis accusamus quos perspiciatis maiores autem repudiandae sit architecto sed
                             atque quidem hic reprehenderit tempora voluptatibus voluptas ut, ratione enim quo distinctio
                             accusantium molestias dolorem? Voluptatum.</span></p>
-                    <p class="tam-fuente-2 border-bottom  border-1 border-primary m-0">Lorem ipsum dolor sit amet consectetur
+                    <p class="descripcion__secundaria tam-fuente-2">Lorem ipsum dolor sit amet consectetur
                         adipisicing elit. Illo voluptates, sapiente unde molestiae
                         nobis at soluta sequi quo dicta recusandae, reprehenderit vitae libero sint facere consequatur
                         corrupti, nemo aliquid maiores.</p>
@@ -114,15 +112,15 @@
 
         </section>
 
-        <section>
+        <section class="nosotros__section">
 
-            <h2 class="text-start">Precio</h2>
-            <div class="row nosotros-titulo justify-content-start">
-                <img class="img-fluid col-xxl-3 col-xl-6 col-lg-6 col-md-5 col-sm-8 order-lg-last"
+            <h2 class="section__titulo">Precio</h2>
+            <div class="section__contenido">
+                <img class="contenido__imagen"
                     src="../images/vendedor 3.jpg" alt="foto vendedor">
 
-                <div class="col-lg-6 col-md-12 pt-md-5">
-                    <p class="tam-fuente-2"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, magnam nobis, aut, dolorem
+                <div class="contenido__descripcion">
+                    <p class="descripcion__principal tam-fuente-2"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, magnam nobis, aut, dolorem
                             optio
                             temporibus nisi aliquid iusto beatae eligendi asperiores perferendis amet blanditiis
                             consequuntur quo. Voluptas, quia dolore. Amet.</span><span>Et corporis obcaecati animi
@@ -137,7 +135,7 @@
                             quia fugiat debitis accusamus quos perspiciatis maiores autem repudiandae sit architecto sed
                             atque quidem hic reprehenderit tempora voluptatibus voluptas ut, ratione enim quo distinctio
                             accusantium molestias dolorem? Voluptatum.</span></p>
-                    <p class="tam-fuente-2 border-bottom  border-1 border-primary m-0">Lorem ipsum dolor sit amet consectetur
+                    <p class="descripcion__secundaria tam-fuente-2">Lorem ipsum dolor sit amet consectetur
                         adipisicing elit. Illo voluptates, sapiente unde molestiae
                         nobis at soluta sequi quo dicta recusandae, reprehenderit vitae libero sint facere consequatur
                         corrupti, nemo aliquid maiores.</p>
@@ -170,13 +168,6 @@
         </nav>
         <p>Todos los derechos reservados <date>2021</date> &copy;</p>
     </footer>
-
-
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-        crossorigin="anonymous"></script>
 
     <body>
 

@@ -951,3 +951,43 @@ h3 {
           margin-top: 1rem;
           margin-right: 1rem;
           border-radius: 1rem; }
+
+.nosotros {
+  margin-top: 3rem; }
+  .nosotros .nosotros__section {
+    margin-bottom: 3rem; }
+    @media (max-width: 768px) {
+      .nosotros .nosotros__section {
+        text-align: center; } }
+    .nosotros .nosotros__section .section__contenido {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 3rem;
+      justify-content: space-between; }
+      @media (max-width: 768px) {
+        .nosotros .nosotros__section .section__contenido {
+          justify-content: center; } }
+      .nosotros .nosotros__section .section__contenido .contenido__imagen {
+        width: 50rem;
+        border-radius: 1rem; }
+        @media (max-width: 768px) {
+          .nosotros .nosotros__section .section__contenido .contenido__imagen {
+            width: 90vw; } }
+      .nosotros .nosotros__section .section__contenido .contenido__descripcion {
+        margin-top: .5rem;
+        margin-right: 3rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100rem;
+        border-bottom: 0.5rem solid mintcream;
+        text-align: justify; }
+        @media (max-width: 768px) {
+          .nosotros .nosotros__section .section__contenido .contenido__descripcion {
+            width: 90vw; } }
+
+.section__contenido--reverse {
+  box-shadow: 2.5rem 1rem 1rem cadetblue; }
+  @media (min-width: 1530px) {
+    .section__contenido--reverse {
+      flex-direction: row-reverse; } }
