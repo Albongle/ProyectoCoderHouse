@@ -1,12 +1,13 @@
 .header {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
   background-image: url("../images/portada.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  height: 70vh;
+  height: 90vh;
   .header__barra {
     margin: 1rem;
     display: flex;
@@ -85,6 +86,7 @@
       .barra__nav {
         flex-direction: column;
         .nav__lista-enlaces {
+          margin: .5rem;
           flex-direction: column;
           align-items: center;
           .lista-enlaces__imagen {
@@ -93,12 +95,18 @@
           }
           &:hover {
             .lista-enlaces__link {
+              padding: .5rem;
               display: block;
             }
           }
           .lista-enlaces__link {
             margin: 0;
             display: none;
+            .link__sub-lista-enlaces{
+              .sub-lista-enlaces__sub-link {
+                padding: .5rem;
+              }
+            }
 
           }
         }

@@ -341,13 +341,14 @@ h3 {
 
 .header {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
   background-image: url("../images/portada.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  height: 70vh; }
+  height: 90vh; }
   .header .header__barra {
     margin: 1rem;
     display: flex;
@@ -403,16 +404,20 @@ h3 {
     .header .header__barra .barra__nav {
       flex-direction: column; }
       .header .header__barra .barra__nav .nav__lista-enlaces {
+        margin: .5rem;
         flex-direction: column;
         align-items: center; }
         .header .header__barra .barra__nav .nav__lista-enlaces .lista-enlaces__imagen {
           width: 3.2rem;
           display: block; }
         .header .header__barra .barra__nav .nav__lista-enlaces:hover .lista-enlaces__link {
+          padding: .5rem;
           display: block; }
         .header .header__barra .barra__nav .nav__lista-enlaces .lista-enlaces__link {
           margin: 0;
-          display: none; } }
+          display: none; }
+          .header .header__barra .barra__nav .nav__lista-enlaces .lista-enlaces__link .link__sub-lista-enlaces .sub-lista-enlaces__sub-link {
+            padding: .5rem; } }
 
 .section-nosotros {
   padding-top: 1rem;
@@ -704,6 +709,9 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row; }
+    @media (max-width: 768px) {
+      .footer .footer__nav ul {
+        justify-content: center; } }
     .footer .footer__nav ul li {
       padding: 1rem;
       border-radius: 1rem;
@@ -712,6 +720,7 @@ h3 {
       @media (max-width: 768px) {
         .footer .footer__nav ul li {
           font-size: 1.6rem;
+          padding: .5rem;
           margin: 0.5rem; } }
       .footer .footer__nav ul li:hover {
         background-color: white; }
