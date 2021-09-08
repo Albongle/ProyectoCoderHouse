@@ -482,7 +482,7 @@ h3 {
         padding: 2rem 1rem;
         border-radius: 1rem; }
       .main-articulos .main-articulos__articulos .articulos__articulo:hover {
-        transform: scale(1.1, 1.2); }
+        transform: scale(1.1, 1.1); }
     .main-articulos .main-articulos__articulos h3 {
       margin: 1rem; }
     .main-articulos .main-articulos__articulos ul {
