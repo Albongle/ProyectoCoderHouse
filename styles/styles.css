@@ -717,7 +717,8 @@ h3 {
   .footer .footer__nav ul {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row; }
+    flex-direction: row;
+    align-items: center; }
     @media (max-width: 768px) {
       .footer .footer__nav ul {
         justify-content: center; } }

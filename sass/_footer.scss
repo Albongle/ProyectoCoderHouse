@@ -15,7 +15,8 @@
     ul {
       display: flex;
       flex-wrap: wrap;
-      flex-direction: row;
+      flex-direction: row; 
+      align-items: center;
       @media (max-width: 768px) {
         justify-content: center;
       }
