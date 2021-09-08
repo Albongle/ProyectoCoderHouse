@@ -561,19 +561,26 @@ h3 {
 .contacto {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center; }
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
   .contacto .contacto__dialog {
-    position: relative;
-    bottom: 40rem;
+    position: fixed;
+    bottom: 10vh;
+    left: 35vw;
     padding: 1rem;
     border: 0;
     border-radius: 1rem;
-    width: 40%;
+    width: 30vw;
     background-color: mintcream; }
+    @media (max-width: 1300px) {
+      .contacto .contacto__dialog {
+        width: 50vw;
+        left: 30vw; } }
     @media (max-width: 768px) {
       .contacto .contacto__dialog {
-        width: 90vw; } }
+        width: 90vw;
+        left: 5vw; } }
     .contacto .contacto__dialog .dialog__frm-contacto .frm-contacto__fieldset {
       border-radius: 1rem; }
       .contacto .contacto__dialog .dialog__frm-contacto .frm-contacto__fieldset .fieldset__legend {
