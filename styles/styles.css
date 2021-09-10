@@ -581,6 +581,7 @@ h3 {
         width: 90vw;
         left: 5vw; } }
     .contacto .contacto__dialog .dialog__frm-contacto .frm-contacto__fieldset {
+      border: solid 0.1rem cadetblue;
       border-radius: 1rem; }
       .contacto .contacto__dialog .dialog__frm-contacto .frm-contacto__fieldset .fieldset__legend {
         color: cadetblue; }
@@ -590,11 +591,13 @@ h3 {
         align-items: flex-start;
         flex-wrap: wrap; }
         .contacto .contacto__dialog .dialog__frm-contacto .frm-contacto__fieldset .fieldset__frm-campos .frm-campos__ingresos {
+          border: solid 0.1rem cadetblue;
           margin: 1rem;
           border-radius: 0.5rem;
           padding: 1rem;
           width: 50%; }
         .contacto .contacto__dialog .dialog__frm-contacto .frm-contacto__fieldset .fieldset__frm-campos .frm-campos__texto {
+          border: solid 0.1rem cadetblue;
           margin: 1rem;
           border-radius: 0.5rem;
           width: 80%; }
@@ -862,7 +865,7 @@ h3 {
         width: 40rem;
         border-radius: 1rem; }
       .blog .blog__articulos .articulos__articulo .articulo__detalle {
-        width: 80%;
+        width: 40rem;
         margin: 1rem;
         display: flex;
         flex-direction: column;

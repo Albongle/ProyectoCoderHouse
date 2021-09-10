@@ -24,6 +24,7 @@
     }
     .dialog__frm-contacto {
       .frm-contacto__fieldset {
+        border: solid .1rem $color-primario;
         border-radius: 1rem;
         .fieldset__legend {
           color: $color-primario;
@@ -34,12 +35,14 @@
           align-items: flex-start;
           flex-wrap: wrap;
           .frm-campos__ingresos {
+            border: solid .1rem $color-primario;
             margin: 1rem;
             border-radius: 0.5rem;
             padding: 1rem;
             width: 50%;
           }
           .frm-campos__texto {
+            border: solid .1rem $color-primario;
             margin: 1rem;
             border-radius: 0.5rem;
             width: 80%;
