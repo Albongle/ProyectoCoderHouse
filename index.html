@@ -26,7 +26,6 @@
                     <li class="lista-enlaces__link"><a href="./pages/nosotros.html">Nosotros</a></li>
                     <li class="lista-enlaces__link""><a href=" ./pages/anuncios.html">Anuncios</a></li>
                     <li class="lista-enlaces__link"><a href="./pages/blog.html">Blog</a></li>
-                    <li class="lista-enlaces__link""><a href=" ./pages/contactanos.html">Contacto</a></li>
                     <li class="lista-enlaces__link"">
                         <a href=" ./pages/encontranos.html">Encontranos</a>
                         <ul class="link__sub-lista-enlaces">
@@ -177,6 +176,16 @@
                         <input class="frm-campos__ingresos" type="text" placeholder="Apellido" required>
                         <input class="frm-campos__ingresos" type="email" placeholder="ejemplo@mail.com.ar" required>
                         <input class="frm-campos__ingresos" type="tel" placeholder="+54 9 11-1111-1111">
+                        <select class="frm-campos__ingresos" name="motivo">
+                            <optgroup label="Comercial">
+                                <option value="venta" selected>Venta</option>
+                                <option value="mantenimiento">Mantenimiento</option>
+                            </optgroup>
+                            <optgroup label="Otros">
+                                <option value="reclamo">Reclamo</option>
+                                <option value="sugerencia">Sugerencia</option>
+                            </optgroup>
+                        </select>
                         <textarea class="frm-campos__texto" name="consulta" maxlength="255" cols="60" rows="20"
                             placeholder="Dejanos tu consulta..."></textarea>
                         <div class="frm-campos__btn">
@@ -196,7 +205,7 @@
                 <div>
                     <h3>Mantene el interior de tu vehiculo como el primer dia</h3>
                     <p>Escrito el: <date>19/07/2021</date> por: <span>Alejandro Bongioanni</span></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Consejos para mantener el interior de tu vehiculo como si fuese recien retirado de nuestros locales</p>
                 </div>
             </article>
             <article>
@@ -204,7 +213,7 @@
                 <div>
                     <h3>Guia para el cuidado del motor</h3>
                     <p>Escrito el: <date>19/07/2021</date> por: <span>Alejandro Bongioanni</span></p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <p>Maximiza el rendimiento del motor con esta guia, aprende a reliazarlo vos mismo</p>
                 </div>
             </article>
         </section>
@@ -212,10 +221,7 @@
             <h2>Comentarios</h2>
             <blockquote>
                 <img src="./images/comentario.svg" alt="foto comilla">
-                <p class="tam-fuente-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis iusto quos dolorum impedit sint
-                    mollitia? In maxime, facilis sit iste, quia repudiandae est, sint quis deserunt unde animi
-                    doloremque
-                    quam</p>.
+                <p class="tam-fuente-2">El personal se comporto de una forma excelente, muy buena atencion y el auto que me ofrecieron supero mis espectativas</p>.
                 <cite>-Juan Perez</cite>
             </blockquote>
 
@@ -227,7 +233,6 @@
                 <li><a href="./pages/nosotros.html">Nosotros</a></li>
                 <li><a href="./pages/anuncios.html">Anuncio</a></li>
                 <li><a href="./pages/blog.html">Blog</a></li>
-                <li><a href="./pages/contactanos.html">Contacto</a></li>
                 <li><a href="./pages/encontranos.html">Encontranos</a></li>
             </ul>
         </nav>

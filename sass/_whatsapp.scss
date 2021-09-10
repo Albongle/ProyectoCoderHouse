@@ -1,12 +1,9 @@
 .whatsapp {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    top: 0px;
-    bottom: 0px;
-    left: 50rem;
-    position: sticky;
+    bottom: 10vh;
+    right: 1vw;
+    position: fixed;
     img{
         width: 6.4rem;
+
     }
   }

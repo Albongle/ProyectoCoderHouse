@@ -4,13 +4,13 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    @media(max-width:1200px)
+    @media(max-width:1400px)
     {
         flex-direction: column;
         align-items: center;
     }
     .blog-comentarios__blog{
-        width: 60rem;
+        width: 80rem;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -37,7 +37,7 @@
                 border-radius: 1rem;
             }
             div{
-                width: 20rem;
+                width: 40rem;
                 display: flex;
                 flex-wrap: wrap;
                 flex-direction: column;
@@ -48,6 +48,9 @@
                 }
                 p{
                     margin: 1rem;
+                }
+                h3{
+                    border-bottom: .5rem solid $color-secundario;
                 }
             }
         }
@@ -66,7 +69,7 @@
         blockquote{
             width: 50%;
             margin:1rem;
-            background-color: olivedrab;
+            background-color: $color-primario;
             padding: 1rem;
             border-radius: 4rem;
             color:white;
