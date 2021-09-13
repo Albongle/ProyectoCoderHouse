@@ -591,17 +591,28 @@ h3 {
         flex-direction: column;
         align-items: flex-start;
         flex-wrap: wrap; }
+        @media (max-height: 700px) {
+          .contacto .contacto__dialog .dialog__frm-contacto .frm-contacto__fieldset .fieldset__frm-campos {
+            padding: .5rem;
+            margin: .3rem; } }
         .contacto .contacto__dialog .dialog__frm-contacto .frm-contacto__fieldset .fieldset__frm-campos .frm-campos__ingresos {
           border: solid 0.1rem cadetblue;
           margin: 1rem;
           border-radius: 0.5rem;
           padding: 1rem;
           width: 50%; }
+          @media (max-height: 700px) {
+            .contacto .contacto__dialog .dialog__frm-contacto .frm-contacto__fieldset .fieldset__frm-campos .frm-campos__ingresos {
+              padding: .5rem;
+              margin: .3rem; } }
         .contacto .contacto__dialog .dialog__frm-contacto .frm-contacto__fieldset .fieldset__frm-campos .frm-campos__texto {
           border: solid 0.1rem cadetblue;
           margin: 1rem;
           border-radius: 0.5rem;
           width: 80%; }
+          @media (max-height: 700px) {
+            .contacto .contacto__dialog .dialog__frm-contacto .frm-contacto__fieldset .fieldset__frm-campos .frm-campos__texto {
+              margin: .3rem; } }
         .contacto .contacto__dialog .dialog__frm-contacto .frm-contacto__fieldset .fieldset__frm-campos .frm-campos__btn {
           width: 100%;
           margin: 1rem;
