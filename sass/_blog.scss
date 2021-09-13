@@ -1,8 +1,7 @@
 .blog {
   text-align: center;
-
+  margin: 1rem;
   .blog__articulos {
-    margin: 1rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -10,21 +9,23 @@
     @media (max-width: 768px) {
       flex-direction: column;
       align-items: center;
+
     }
     .articulos__articulo {
       width: 40vw;
-      margin: 1rem;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
       @media (max-width: 768px) {
-        width: 100vw;
-        margin: 0;
+        width: 100%;
       }
       .articulo__imagen {
         width: 40rem;
         border-radius: 1rem;
+        @media (max-width: 576px) {
+          width: 100%;
+        }
 
       }
       .articulo__detalle {
@@ -39,6 +40,9 @@
         }
         p {
           margin: 0.5rem;
+        }
+        @media (max-width: 576px) {
+          width: 100%;
         }
       }
       .articulo__btn {

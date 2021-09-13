@@ -22,11 +22,13 @@
       flex-wrap: wrap;
       align-items: center;
       
+      
       .articulo__foto-venta {
         width: 100%;
       }
       .articulo__descripcion {
-        text-align: justify;
+        text-align:center;
+        text-justify:distribute-all-lines;
         margin: 1rem;
       }
       .articulo__ver-anuncio {
