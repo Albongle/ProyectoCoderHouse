@@ -787,19 +787,21 @@ h3 {
         padding: 0.1rem; } }
     .anuncios .anuncios__table table tbody tr:nth-of-type(even) {
       background-color: rgba(245, 255, 250, 0.5); }
-    @media (max-width: 768px) {
-      .anuncios .anuncios__table table tbody tr td {
-        width: 10vw; } }
-    .anuncios .anuncios__table table tbody tr td img {
-      height: 6rem;
-      width: 10rem;
-      transition: transform 0.5s ease-in-out 0.2s; }
-      .anuncios .anuncios__table table tbody tr td img:hover {
-        transform: scale(4, 4); }
+    .anuncios .anuncios__table table tbody tr td {
+      cursor: pointer; }
       @media (max-width: 768px) {
-        .anuncios .anuncios__table table tbody tr td img {
-          height: 2rem;
-          width: 5rem; } }
+        .anuncios .anuncios__table table tbody tr td {
+          width: 10vw; } }
+      .anuncios .anuncios__table table tbody tr td img {
+        height: 6rem;
+        width: 10rem;
+        transition: transform 0.5s ease-in-out 0.2s; }
+        .anuncios .anuncios__table table tbody tr td img:hover {
+          transform: scale(4, 4); }
+        @media (max-width: 768px) {
+          .anuncios .anuncios__table table tbody tr td img {
+            height: 2rem;
+            width: 5rem; } }
   .anuncios .anuncios__articulo {
     display: flex;
     flex-direction: row;
